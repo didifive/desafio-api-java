@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "meu-amigau-api.jwt.secret",
+    "type": "java.lang.String",
+    "description": "JWT Token Secret, environment variable is recommended"
+  },
+  {
+    "name": "meu-amigau-api.jwt.expiration",
+    "type": "java.lang.String",
+    "description": "Expiration for JWT Token in miliseconds"
+  },
+  {
+    "name": "meu-amigau-api.jwt.issuer",
+    "type": "java.lang.String",
+    "description": "JWT Token Issuer"
+  },
+  {
+    "name": "meu-amigau-api.the-dog-api.x-api-key",
+    "type": "java.lang.String",
+    "description": "The Dog Api 'https://docs.thedogapi.com/' - Api Key"
+  }
+]}

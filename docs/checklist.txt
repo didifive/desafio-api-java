@@ -1,0 +1,19 @@
+Neste desafio você deverá desenvolver diversos End Points para um sistema de atendimento veterinário, nesse sistema, deverá considerar somente o atendimento de cachorros.
+
+O sistema deverá obrigatoriamente fornecer End Points para:
+[X] CRUD completo para clientes (armazenar somente dados básicos)
+[X] CRUD completo para médicos veterinários (armazenar somente dados básicos)
+[X] CRUD completo para o cachorro (cada animal deverá estar associado a um tutor/cliente | dados básicos do animal)
+[X] Registrar dados do atendimento: veterinário que está atendendo, tutor, animal em atendimento, data, hora, dados do animal no dia, diagnóstico, comentários.
+[X] Autenticação do usuário (Basic Authentication – user:password) para acessar os End Points.
+[X] Não deixe de popular o banco
+EXCEEDS
+[X] No cadastro do animal, recuperar dados da raça buscando na API fornecida pelo link no final da descrição da atividade.
+[X] Fornecer ao menos 3 serviços da API descrita no final da atividade para o cliente ( o cliente não pode acessar a API diretamente, deve acessar seu End Point, e seu End Poit deverá acessar a API e passar os dados para o cliente)
+[X] Manter histórico dos atendimentos e permitir que tanto o cliente quanto veterinário possam acessar esses dados.
+OBS: Nesse caso, o cliente poderá acessar somente dados das consultas de seus animais. Os veterinários por sua vez, podem ver histórico de qualquer consulta.
+[X] Swagger ou projeto no postman
+[X] TDD
+
+O link da API que deverá ser utilizada é apresentado a seguir:
+https://thedogapi.com/
